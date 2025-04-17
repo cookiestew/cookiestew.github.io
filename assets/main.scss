@@ -15,10 +15,7 @@ body{
     margin-bottom: 0;
     float: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    &,
-    &:visited {
-      color: $grey-color-dark;
-    }
+    color: darkorchid;
   }
 
 .site-footer {display: none;}
