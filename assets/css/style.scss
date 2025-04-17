@@ -5,6 +5,4 @@ body {
   background-color: rgb(233, 168, 234);
 }
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+
