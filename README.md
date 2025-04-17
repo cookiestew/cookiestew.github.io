@@ -1,2 +1,0 @@
-# cookiestew
-blog site
