@@ -4,6 +4,20 @@
 @import "minima";
 
 body{
-    background-color: lavender;
+    background-color: rgb(220, 208, 255);
 }
+
+.site-title {
+    @include relative-font-size(1.625);
+    font-weight: 300;
+    line-height: $base-line-height * $base-font-size * 2.25;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    &,
+    &:visited {
+      color: $grey-color-dark;
+    }
+  }
 
