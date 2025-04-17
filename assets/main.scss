@@ -15,8 +15,20 @@ body{
     margin-bottom: 0;
     float: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkorchid;
+    &,
+    &:visited {
+      color: darkorchid;
+    }
   }
+
+.site-nav{
+  .page-link{
+    color:darkorchid
+  }
+}
+
+
+
 
 .site-footer {display: none;}
 
