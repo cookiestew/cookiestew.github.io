@@ -28,16 +28,37 @@ body{
   }
 }
 
-.post_content{
-  a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:darkorchid
-  }
-}
-
-.post_link{
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $base-font-weight;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:darkorchid
+}
+
+
+
+/**
+ * Links
+ */
+a {
+  color: darkorchid;
+  text-decoration: none;
+
+  &:visited {
+    color: darken(darkorchid);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: underline;
+    }
+  }
 }
 
 
