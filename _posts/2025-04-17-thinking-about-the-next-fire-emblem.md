@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "Thinking About The Next Fire Emblem"
-date:   2025-04-17 00:10:14 -0400
-categories: games
+title: "Thinking About The Next Fire Emblem"
+date: 2025-04-17 
 ---
 Now that Nintendo has unveiled the Nintendo Switch 2, I have started to think about upcoming Nintendo games, including the future of the Fire Emblem series.
 
